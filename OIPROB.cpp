@@ -1,14 +1,14 @@
 #include <map>
 #include <iostream>
 using namespace std;
-
+#define vector<int> vi
 int main() 
 {
     
     int m, n;
     cin>>m>>n;
     n--;
-    vector< vector<int> > v(n, vector<int>(m));
+    vector< vi > v(n, vector<int>(m));
     for(int i=0;i<m;i++)
         for(int j=0;j<n;j++)
             cin>>v[j][i];
