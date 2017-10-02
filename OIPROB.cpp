@@ -1,7 +1,8 @@
 #include <map>
 #include <iostream>
 using namespace std;
-
+//added some dfeines
+#define vector<int> vi
 int main() 
 {
     
