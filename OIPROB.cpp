@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
-
+//added some dfeines
+#define vector<int> vi
 int main() 
 {
     //add fast io
